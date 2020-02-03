@@ -9,8 +9,8 @@ Vue.use(VueRouter)
 
 const routes = [{
         path: '/',
-        name: 'home',
-        component: Home,
+        name: 'api',
+        component: api,
         children: [{
                 path: 'play',
                 name: 'play',
